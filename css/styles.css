@@ -205,12 +205,22 @@ img {
 }
 
 .hero {
+  max-width: 1600px;
+  height: 600px;
   padding-top: 200px;
   padding-bottom: 200px;
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 0px;
   background-color: var(--black-blue-color);
+  background-image: linear-gradient(
+      to right,
+      rgba(47, 48, 58, 0.4),
+      rgba(47, 48, 58, 0.4)
+    ),
+    url(../images/0-Img0.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 /*-------опис якостей------*/
@@ -321,6 +331,17 @@ img {
 .team-name {
   padding-top: 30px;
   padding-bottom: 30px;
+}
+
+/*----Клиент-----*/
+
+.client-title {
+  margin-bottom: 50px;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  color: var(--black-light-color);
 }
 /*----------FOOTER-------*/
 .footer-adress {
