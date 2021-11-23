@@ -19,6 +19,7 @@ html {
 
   --grey-color: #757575;
   --grey-light-color: rgba(255, 255, 255, 0.6);
+  --grey-muddy-color: rgba(175, 177, 184, 1);
   --grey-black-color: 0px 1px 3px rgba(0, 0, 0, 0.12),
     0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
   --grey-middle-color: 1px solid #ececec;
@@ -330,6 +331,7 @@ img {
   color: var(--black-light-color);
 }
 .team-text {
+  margin-bottom: 16px;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.18;
@@ -339,7 +341,6 @@ img {
 
 .team-item {
   width: 270px;
-  height: 368px;
   top: 1635px;
   background-color: var(--white-color);
   box-shadow: var(--grey-black-color);
@@ -348,6 +349,27 @@ img {
 .team-name {
   padding-top: 30px;
   padding-bottom: 30px;
+}
+.team-list-icon {
+  display: flex;
+  justify-content: center;
+}
+.team-item-icon {
+  height: 44px;
+  width: 44px;
+  padding: 12px;
+  margin-right: 10px;
+  border-radius: 25px;
+  background: var(--white-color);
+  fill: var(--grey-muddy-color);
+}
+.team-item-icon:last-child {
+  margin-right: 0px;
+}
+
+.team-item-icon:hover {
+  fill: var(--white-color);
+  background: var(--blue-light-color);
 }
 
 /*----Клиент-----*/
@@ -377,7 +399,7 @@ img {
   border: 1px solid #afb1b8;
   box-sizing: border-box;
   border-radius: 4px;
-  fill: var(--grey-color);
+  fill: #afb1b8;
 }
 .client-icon:hover {
   fill: var(--blue-light-color);
@@ -427,7 +449,42 @@ img {
 .footer-link:focus {
   color: var(--blue-light-color);
 }
+.footer-box-item {
+  margin-right: 70px;
+}
 
+.footer-social-item {
+  margin-top: 12px;
+}
+.footer-third-title {
+  margin-bottom: 20px;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  color: var(--white-color);
+}
+.footer-box {
+  display: flex;
+}
+.footer-list-icon {
+  display: flex;
+}
+.footer-item-icon {
+  height: 44px;
+  width: 44px;
+  padding: 12px;
+  margin-right: 10px;
+  border-radius: 25px;
+  background: rgba(255, 255, 255, 0.1);
+  fill: var(--white-color);
+}
+.footer-item-icon:last-child {
+  margin-right: 0px;
+}
+
+.footer-item-icon:hover {
+  background: var(--blue-light-color);
+}
 /*---------ПОРТФОЛИО-MAIN--------------*/
 
 /*-------BUTTON--------*/
