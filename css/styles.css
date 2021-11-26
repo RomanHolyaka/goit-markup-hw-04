@@ -311,6 +311,7 @@ img {
 .team-list {
   display: flex;
 }
+
 .team-item {
   margin-right: 30px;
 }
@@ -350,29 +351,27 @@ img {
   border-radius: 0px 0px 4px 4px;
 }
 .team-name {
-  padding-top: 30px;
-  padding-bottom: 30px;
+  padding: 30px 32px;
 }
 .team-list-icon {
   display: flex;
   justify-content: center;
 }
-.team-item-icon {
+.social {
   height: 44px;
   width: 44px;
-  padding: 12px;
   margin-right: 10px;
-  border-radius: 25px;
-  background: var(--white-color);
-}
-.team-item-icon:last-child {
-  margin-right: 0px;
-}
-.social-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
   fill: var(--grey-muddy-color);
 }
-
-.team-item-icon:hover {
+.social:last-child {
+  margin-right: 0px;
+}
+.social:hover,
+.social:focus {
   fill: var(--white-color);
   background: var(--blue-light-color);
 }
@@ -394,10 +393,13 @@ img {
   display: flex;
   align-items: center;
 }
+.client-item {
+  margin-right: 30px;
+}
 .client-item:last-child {
   margin-right: 0px;
 }
-.client-item {
+.client-link {
   width: 170px;
   height: 92px;
   display: flex;
@@ -406,12 +408,11 @@ img {
   border: 1px solid #afb1b8;
   box-sizing: border-box;
   border-radius: 4px;
-}
-.client-icon {
   fill: var(--grey-muddy-color);
 }
-.client-item:hover,
-.client-item:focus {
+
+.client-link:hover,
+.client-link:focus {
   fill: var(--blue-light-color);
   border: 1px solid #2196f3;
 }
@@ -459,9 +460,6 @@ img {
   display: flex;
   align-items: baseline;
 }
-.footer-icon {
-  margin-right: 70px;
-}
 .footer-link:hover,
 .footer-link:focus {
   color: var(--blue-light-color);
@@ -473,21 +471,21 @@ img {
   line-height: 1.14;
   color: var(--white-color);
 }
-.footer-list-icon,
-.footer-box {
-  display: flex;
-  left: 0px;
-  right: 0px;
-}
+
 .footer-list-icon {
   display: flex;
 }
 .footer-item-icon {
+  margin-right: 10px;
+}
+
+.footer-social {
   height: 44px;
   width: 44px;
-  padding: 12px;
-  margin-right: 10px;
-  border-radius: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
   background: rgba(255, 255, 255, 0.1);
   fill: var(--white-color);
 }
@@ -495,7 +493,8 @@ img {
   margin-right: 0px;
 }
 
-.footer-item-icon:hover {
+.footer-social:hover,
+.footer-social:focus {
   background: var(--blue-light-color);
 }
 /*---------ПОРТФОЛИО-MAIN--------------*/
