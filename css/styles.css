@@ -279,8 +279,6 @@ img {
   box-sizing: border-box;
   border-radius: 4px;
 }
-.image-icon {
-}
 
 /*------ABOUT----*/
 .about {
@@ -536,8 +534,7 @@ img {
 .mainhero-btn:focus {
   color: var(--white-color);
   background-color: var(--blue-light-color);
- box-shadow: 0 10px 10px -5px rgba(0, 0, 0, 0.3);
-}
+  box-shadow: 0 10px 10px -5px rgba(0, 0, 0, 0.3);
 }
 .mainhero-btn.current {
   color: var(--white-color);
@@ -561,8 +558,8 @@ img {
 .mainhero-pictures:nth-child(3n) {
   margin-right: 0px;
 }
-.mainhero-pictures:hover{
-  box-shadow: 0 10px 10px -5px rgba(0, 0, 0, 0.3)
+.mainhero-pictures:hover {
+  box-shadow: 0 10px 10px -5px rgba(0, 0, 0, 0.3);
 }
 
 .mainhero-name {
