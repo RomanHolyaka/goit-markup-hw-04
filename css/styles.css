@@ -460,6 +460,9 @@ img {
   display: flex;
   align-items: baseline;
 }
+.footer-boxlogo {
+  margin-right: 70px;
+}
 .footer-link:hover,
 .footer-link:focus {
   color: var(--blue-light-color);
@@ -557,8 +560,13 @@ img {
 .mainhero-pictures:nth-child(3n) {
   margin-right: 0px;
 }
-.mainhero-pictures:hover {
-  box-shadow: 0 10px 10px -5px rgba(0, 0, 0, 0.3);
+.mainhero-card:hover,
+.mainhero-card:focus {
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+    1px 4px 6px rgba(0, 0, 0, 0.16);
+}
+.mainhero-card {
+  display: block;
 }
 
 .mainhero-name {
